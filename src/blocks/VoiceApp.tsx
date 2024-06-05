@@ -27,6 +27,13 @@ type AudioButtonProps = {
 
 */
 
+const PostInFeed = () => {
+  const aString = "meow"
+  return (
+    <audio controls src={aString}></audio>
+)
+}
+
 const AudioButtons = ({onSave}: AudioButtonProps) => {
 
   const handleSubmit = () => {
@@ -97,11 +104,7 @@ export default class VoiceBlock extends Block {
 
   render() {
     return (
-      <div>
-        <div>{this.model.data["name"]}</div>
-        <div></div>
-        <div></div>
-      </div>
+      <PostInFeed />
     );
   }
 
