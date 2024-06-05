@@ -53,9 +53,11 @@ export default class VoiceBlock extends Block {
       done(this.model)
     }
 
+
+
     return (
       <>
-      <FakeForm onSave={handleSave}/>
+        <FakeForm onSave={handleSave} />
         <Card style={{ backgroundColor: 'black', borderRadius: '30px' }} >
 
           <CardContent style={{ backgroundColor: 'black', padding: '24px', height: 240, display: 'flex', alignItems: 'center', }}>
