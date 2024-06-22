@@ -1,0 +1,2 @@
+- .env variables need a REACT_APP_* prefix
+- for type error problem add types 
